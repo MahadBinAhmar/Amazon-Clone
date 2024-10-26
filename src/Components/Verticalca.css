@@ -1,0 +1,49 @@
+/* Friend Suggestions Section */
+.friend-suggestions {
+    position: relative;
+    padding: 20px;
+    background-color: white; /* White background for the card container */
+    margin-bottom: 20px; /* Add margin to separate the sections */
+    box-shadow: 2px solid black;
+    background-color: #f5f2f2;
+}
+
+/* Suggestion Cards Section */
+.suggestion-cards {
+    display: flex;
+    overflow-x: hidden; /* Hide the scrollbar */
+    border-radius: 0%;
+    padding: 10px 0;
+}
+
+.suggestion-card {
+    min-width: 300px; /* Increased width */
+    height: 200px; /* Increased height */
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.suggestion-card img{
+    width: 200px;
+    height: 170px ;
+}
+
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}

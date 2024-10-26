@@ -1,0 +1,76 @@
+.create-account__container {
+    max-width: 360px; /* Adjusted max width */
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: start;
+    font-size: 16px; /* Decreased font size */
+}
+
+.good a{
+ text-align: start;
+ text-decoration: underline;
+}
+
+.create-account__logo {
+    max-width: 100px; 
+    margin-bottom: 20px;
+}
+
+.create-account__container label {
+    font-size: 13px; /* Decreased font size for labels */
+}
+
+.create-account__container input {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.create-account__container input:focus {
+    border-color: #007185; /* Border color on focus */
+    box-shadow: 0 0 8px #66d9e8; /* Glow effect */
+    outline: none;
+}
+
+.create-account__container p {
+    font-size: 12px; /* Decreased font size for paragraphs */
+}
+
+.create-account__container a {
+    color: #0066c0; /* Amazon link color */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.create-account__container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px; /* Decreased font size for footer */
+    color: #555;
+    text-align: center;
+}
+
+footer a {
+    color: #0066c0; /* Amazon link color */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-note {
+    margin-top: 20px;
+    font-size: 12px; /* Decreased font size for footer note */
+    color: #555;
+}

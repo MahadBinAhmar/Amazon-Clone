@@ -1,0 +1,67 @@
+.home {
+  position: relative;
+  height: 210vh; /* Increased height */
+  background-color: #f5f2f2;
+}
+
+.carousel-item {
+  position: relative; /* Ensure the carousel items are positioned relatively */
+}
+
+.carousel-item img {
+  width: 100%;/* Adjust the height of the carousel images as needed */
+  object-fit: cover; 
+}
+
+/* Positioning for card-section */
+.card-section {
+  position: absolute;
+  top: 50%;    
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust depending on how many cards per row */
+  gap: 20px;
+  width: 95%;
+  z-index: 1; /* Ensure cards are above the carousel images */
+}
+
+.card {
+  background-color: white;
+  padding: 0px 15px 0px 15px;
+  border-radius: 0%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: fixed;
+}
+
+.card-details {
+  padding: 10px;
+}
+
+.card h4 {
+  text-align: start;
+  font-size: 20px;
+  margin: 10px 0 5px;
+  font-weight: 750;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.see-more{
+  margin-top: 10px;
+  text-align: start;
+  color: #087484;
+  font-size: 13px;
+}
+
+.see-more:hover{
+  color: orange;
+}

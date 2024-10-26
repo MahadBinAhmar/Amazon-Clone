@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff; /* Background color white */
+}
+
+.container {
+    max-width: 400px; /* Adjusted max width */
+    width: 100%;
+    background-color: white;
+}
+
+.logo img {
+    max-width: 100px; /* Adjusted logo size */
+    margin-bottom: 20px;
+}
+
+.signin-box {
+    width: 100%;
+}
+
+.signin-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signin-box label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.signin-box input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.signin-box input:focus {
+    border-color: #007185; /* Border color on focus */
+    box-shadow: 0 0 8px #66d9e8; /* Glow effect */
+    outline: none;
+}
+
+.signin-box button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.signin-box .terms {
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+}
+
+.signin-box .terms a {
+    color: #0066c0; /* Amazon link color */
+    text-decoration: none;
+}
+
+.signin-box .terms a:hover {
+    text-decoration: underline;
+}
+
+.help-link {
+    font-size: 12px;
+    color: #0066c0; /* Amazon link color */
+    text-decoration: none;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.new-account p {
+    color: #787474;
+    font-size: 12px; /* Match the font size with other texts */
+}
+
+.new-account button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: white; /* Background color white */
+    border: 1px solid lightgrey; /* Add black border */
+    color: black; /* Text color black */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.new-account button:hover {
+    border-color: #007185; /* Border color on hover */
+    box-shadow: 0 0 8px #66d9e8; /* Glow effect on hover */
+    outline: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}
+
+footer a {
+    color: #0066c0; /* Amazon link color */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-note {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}
